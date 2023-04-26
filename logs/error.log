@@ -1,0 +1,1494 @@
+2023-04-26 02:15:41 error: [Cake\Http\Exception\MissingControllerException] Controller class Usuarios_informacoes could not be found. in D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 348
+Exception Attributes: array (
+  'controller' => 'Usuarios_informacoes',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+  'class' => 'Usuarios_informacoes',
+)
+Stack Trace:
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:74
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\BaseApplication.php:318
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:86
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:67
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Server.php:90
+- D:\wamp64\www\projeto\testeMichel01\webroot\index.php:40
+
+Request URL: /usuarios_informacoes
+2023-04-26 02:16:06 warning: Unable to emit headers. Headers sent in file=D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php line=36
+Request URL: /usuariosinformacoes
+Trace:
+Cake\Http\ResponseEmitter::emit() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 71
+Cake\Http\Server::emit() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Server.php, line 128
+[main] D:\wamp64\www\projeto\testeMichel01\webroot\index.php, line 40
+
+2023-04-26 02:16:06 warning: Cannot modify header information - headers already sent by (output started at D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php:36)
+Request URL: /usuariosinformacoes
+Trace:
+header [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 168
+Cake\Http\ResponseEmitter::emit() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 74
+Cake\Http\Server::emit() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Server.php, line 128
+[main] D:\wamp64\www\projeto\testeMichel01\webroot\index.php, line 40
+
+2023-04-26 02:16:06 warning: Cannot modify header information - headers already sent by (output started at D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php:36)
+Request URL: /usuariosinformacoes
+Trace:
+header [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 197
+Cake\Http\ResponseEmitter::emit() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 75
+Cake\Http\Server::emit() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Server.php, line 128
+[main] D:\wamp64\www\projeto\testeMichel01\webroot\index.php, line 40
+
+2023-04-26 02:16:06 warning: Cannot modify header information - headers already sent by (output started at D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php:36)
+Request URL: /usuariosinformacoes
+Trace:
+header [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 197
+Cake\Http\ResponseEmitter::emit() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 75
+Cake\Http\Server::emit() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Server.php, line 128
+[main] D:\wamp64\www\projeto\testeMichel01\webroot\index.php, line 40
+
+2023-04-26 02:18:36 error: [Error] Call to a member function newEmptyEntity() on null in D:\wamp64\www\projeto\testeMichel01\src\Controller\UsuariosInformacoesController.php on line 49
+Stack Trace:
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Controller\Controller.php:547
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:139
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:86
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:67
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Server.php:90
+- D:\wamp64\www\projeto\testeMichel01\webroot\index.php:40
+
+Request URL: /usuariosinformacoes/add
+Referer URL: http://localhost/projeto/testeMichel01/usuariosinformacoes
+2023-04-26 02:18:37 warning: Unable to emit headers. Headers sent in file=D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php line=36
+Request URL: /usuariosinformacoes/add
+Referer URL: http://localhost/projeto/testeMichel01/usuariosinformacoes
+Trace:
+Cake\Http\ResponseEmitter::emit() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 71
+Cake\Http\Server::emit() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Server.php, line 128
+[main] D:\wamp64\www\projeto\testeMichel01\webroot\index.php, line 40
+
+2023-04-26 02:18:37 warning: Cannot modify header information - headers already sent by (output started at D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php:36)
+Request URL: /usuariosinformacoes/add
+Referer URL: http://localhost/projeto/testeMichel01/usuariosinformacoes
+Trace:
+header [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 168
+Cake\Http\ResponseEmitter::emit() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 74
+Cake\Http\Server::emit() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Server.php, line 128
+[main] D:\wamp64\www\projeto\testeMichel01\webroot\index.php, line 40
+
+2023-04-26 02:18:37 warning: Cannot modify header information - headers already sent by (output started at D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php:36)
+Request URL: /usuariosinformacoes/add
+Referer URL: http://localhost/projeto/testeMichel01/usuariosinformacoes
+Trace:
+header [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 197
+Cake\Http\ResponseEmitter::emit() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 75
+Cake\Http\Server::emit() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Server.php, line 128
+[main] D:\wamp64\www\projeto\testeMichel01\webroot\index.php, line 40
+
+2023-04-26 02:18:37 warning: Cannot modify header information - headers already sent by (output started at D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php:36)
+Request URL: /usuariosinformacoes/add
+Referer URL: http://localhost/projeto/testeMichel01/usuariosinformacoes
+Trace:
+header [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 197
+Cake\Http\ResponseEmitter::emit() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 75
+Cake\Http\Server::emit() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Server.php, line 128
+[main] D:\wamp64\www\projeto\testeMichel01\webroot\index.php, line 40
+
+2023-04-26 02:23:32 warning: Unable to emit headers. Headers sent in file=D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php line=36
+Request URL: /usuariosinformacoes
+Trace:
+Cake\Http\ResponseEmitter::emit() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 71
+Cake\Http\Server::emit() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Server.php, line 128
+[main] D:\wamp64\www\projeto\testeMichel01\webroot\index.php, line 40
+
+2023-04-26 02:23:32 warning: Cannot modify header information - headers already sent by (output started at D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php:36)
+Request URL: /usuariosinformacoes
+Trace:
+header [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 168
+Cake\Http\ResponseEmitter::emit() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 74
+Cake\Http\Server::emit() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Server.php, line 128
+[main] D:\wamp64\www\projeto\testeMichel01\webroot\index.php, line 40
+
+2023-04-26 02:23:32 warning: Cannot modify header information - headers already sent by (output started at D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php:36)
+Request URL: /usuariosinformacoes
+Trace:
+header [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 197
+Cake\Http\ResponseEmitter::emit() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 75
+Cake\Http\Server::emit() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Server.php, line 128
+[main] D:\wamp64\www\projeto\testeMichel01\webroot\index.php, line 40
+
+2023-04-26 02:23:32 warning: Cannot modify header information - headers already sent by (output started at D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php:36)
+Request URL: /usuariosinformacoes
+Trace:
+header [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 197
+Cake\Http\ResponseEmitter::emit() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 75
+Cake\Http\Server::emit() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Server.php, line 128
+[main] D:\wamp64\www\projeto\testeMichel01\webroot\index.php, line 40
+
+2023-04-26 02:38:20 error: [InvalidArgumentException] The `UsuariosInformacoes` association is not defined on `Usuarios`. in D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\ORM\Table.php on line 911
+Stack Trace:
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\ORM\EagerLoader.php:489
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\ORM\EagerLoader.php:314
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\ORM\EagerLoader.php:445
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\ORM\EagerLoader.php:416
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\ORM\Query.php:1177
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\ORM\Query.php:1127
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php:200
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Database\Connection.php:303
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php:70
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Database\Connection.php:310
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Database\Connection.php:358
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php:70
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Database\Connection.php:363
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Database\Query.php:255
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\ORM\Query.php:1148
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php:288
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\ORM\Query.php:1096
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Datasource\Paging\NumericPaginator.php:183
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Controller\Controller.php:958
+- D:\wamp64\www\projeto\testeMichel01\src\Controller\UsuariosController.php:24
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Controller\Controller.php:547
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:139
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:86
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:67
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Server.php:90
+- D:\wamp64\www\projeto\testeMichel01\webroot\index.php:40
+
+Request URL: /usuarios
+Referer URL: http://localhost/projeto/testeMichel01/usuarios/add
+2023-04-26 02:38:25 error: [InvalidArgumentException] The `UsuariosInformacoes` association is not defined on `Usuarios`. in D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\ORM\Table.php on line 911
+Stack Trace:
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\ORM\EagerLoader.php:489
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\ORM\EagerLoader.php:314
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\ORM\EagerLoader.php:445
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\ORM\EagerLoader.php:416
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\ORM\Query.php:1177
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\ORM\Query.php:1127
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php:200
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Database\Connection.php:303
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php:70
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Database\Connection.php:310
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Database\Connection.php:358
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php:70
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Database\Connection.php:363
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Database\Query.php:255
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\ORM\Query.php:1148
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php:288
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\ORM\Query.php:1096
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Datasource\Paging\NumericPaginator.php:183
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Controller\Controller.php:958
+- D:\wamp64\www\projeto\testeMichel01\src\Controller\UsuariosController.php:24
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Controller\Controller.php:547
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:139
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:86
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:67
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Server.php:90
+- D:\wamp64\www\projeto\testeMichel01\webroot\index.php:40
+
+Request URL: /usuarios
+Referer URL: http://localhost/projeto/testeMichel01/usuarios/add
+2023-04-26 02:38:47 error: [InvalidArgumentException] The `UsuariosInformacoes` association is not defined on `Usuarios`. in D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\ORM\Table.php on line 911
+Stack Trace:
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\ORM\EagerLoader.php:489
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\ORM\EagerLoader.php:314
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\ORM\EagerLoader.php:445
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\ORM\EagerLoader.php:416
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\ORM\Query.php:1177
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\ORM\Query.php:1127
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php:200
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Database\Connection.php:303
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php:70
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Database\Connection.php:310
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Database\Connection.php:358
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php:70
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Database\Connection.php:363
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Database\Query.php:255
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\ORM\Query.php:1148
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php:288
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\ORM\Query.php:1096
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Datasource\Paging\NumericPaginator.php:183
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Controller\Controller.php:958
+- D:\wamp64\www\projeto\testeMichel01\src\Controller\UsuariosController.php:24
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Controller\Controller.php:547
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:139
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:86
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:67
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Server.php:90
+- D:\wamp64\www\projeto\testeMichel01\webroot\index.php:40
+
+Request URL: /usuarios
+Referer URL: http://localhost/projeto/testeMichel01/usuarios/add
+2023-04-26 02:38:50 error: [InvalidArgumentException] The `UsuariosInformacoes` association is not defined on `Usuarios`. in D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\ORM\Table.php on line 911
+Stack Trace:
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\ORM\EagerLoader.php:489
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\ORM\EagerLoader.php:314
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\ORM\EagerLoader.php:445
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\ORM\EagerLoader.php:416
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\ORM\Query.php:1177
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\ORM\Query.php:1127
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php:200
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Database\Connection.php:303
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php:70
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Database\Connection.php:310
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Database\Connection.php:358
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php:70
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Database\Connection.php:363
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Database\Query.php:255
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\ORM\Query.php:1148
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php:288
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\ORM\Query.php:1096
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Datasource\Paging\NumericPaginator.php:183
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Controller\Controller.php:958
+- D:\wamp64\www\projeto\testeMichel01\src\Controller\UsuariosController.php:24
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Controller\Controller.php:547
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:139
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:86
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:67
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Server.php:90
+- D:\wamp64\www\projeto\testeMichel01\webroot\index.php:40
+
+Request URL: /usuarios
+Referer URL: http://localhost/projeto/testeMichel01/usuarios/add
+2023-04-26 03:07:04 error: [Cake\View\Exception\MissingTemplateException] Template file `Users\index.php` could not be found.
+
+The following paths were searched:
+
+- `D:\wamp64\www\projeto\testeMichel01\templates\Users\index.php`
+- `D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\templates\Users\index.php`
+ in D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\View\View.php on line 1398
+Exception Attributes: array (
+  'file' => 'Users\\index.php',
+  'paths' => 
+  array (
+    0 => 'D:\\wamp64\\www\\projeto\\testeMichel01\\templates\\',
+    1 => 'D:\\wamp64\\www\\projeto\\testeMichel01\\vendor\\cakephp\\cakephp\\templates\\',
+  ),
+)
+Stack Trace:
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\View\View.php:805
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Controller\Controller.php:773
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Controller\Controller.php:556
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:139
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:86
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:67
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Server.php:90
+- D:\wamp64\www\projeto\testeMichel01\webroot\index.php:40
+
+Request URL: /users
+2023-04-26 03:07:11 error: [Cake\View\Exception\MissingTemplateException] Template file `Users\index.php` could not be found.
+
+The following paths were searched:
+
+- `D:\wamp64\www\projeto\testeMichel01\templates\Users\index.php`
+- `D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\templates\Users\index.php`
+ in D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\View\View.php on line 1398
+Exception Attributes: array (
+  'file' => 'Users\\index.php',
+  'paths' => 
+  array (
+    0 => 'D:\\wamp64\\www\\projeto\\testeMichel01\\templates\\',
+    1 => 'D:\\wamp64\\www\\projeto\\testeMichel01\\vendor\\cakephp\\cakephp\\templates\\',
+  ),
+)
+Stack Trace:
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\View\View.php:805
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Controller\Controller.php:773
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Controller\Controller.php:556
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:139
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:86
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:67
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Server.php:90
+- D:\wamp64\www\projeto\testeMichel01\webroot\index.php:40
+
+Request URL: /Users
+2023-04-26 03:08:27 error: [Cake\View\Exception\MissingTemplateException] Template file `Users\index.php` could not be found.
+
+The following paths were searched:
+
+- `D:\wamp64\www\projeto\testeMichel01\templates\Users\index.php`
+- `D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\templates\Users\index.php`
+ in D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\View\View.php on line 1398
+Exception Attributes: array (
+  'file' => 'Users\\index.php',
+  'paths' => 
+  array (
+    0 => 'D:\\wamp64\\www\\projeto\\testeMichel01\\templates\\',
+    1 => 'D:\\wamp64\\www\\projeto\\testeMichel01\\vendor\\cakephp\\cakephp\\templates\\',
+  ),
+)
+Stack Trace:
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\View\View.php:805
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Controller\Controller.php:773
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Controller\Controller.php:556
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:139
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:86
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:67
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Server.php:90
+- D:\wamp64\www\projeto\testeMichel01\webroot\index.php:40
+
+Request URL: /Users
+2023-04-26 03:25:21 error: [Cake\ORM\Exception\MissingTableClassException] Table class for alias `Users` could not be found. in D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\ORM\Locator\TableLocator.php on line 243
+Exception Attributes: array (
+  0 => 'for alias `Users`',
+)
+Stack Trace:
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Datasource\Locator\AbstractLocator.php:68
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\ORM\Locator\TableLocator.php:205
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Datasource\ModelAwareTrait.php:128
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Controller\Controller.php:323
+- D:\wamp64\www\projeto\testeMichel01\src\Controller\UsersController.php:14
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Controller\Controller.php:547
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:139
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:86
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:67
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Server.php:90
+- D:\wamp64\www\projeto\testeMichel01\webroot\index.php:40
+
+Request URL: /Users
+2023-04-26 03:27:07 error: [Cake\ORM\Exception\MissingTableClassException] Table class for alias `Users` could not be found. in D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\ORM\Locator\TableLocator.php on line 243
+Exception Attributes: array (
+  0 => 'for alias `Users`',
+)
+Stack Trace:
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Datasource\Locator\AbstractLocator.php:68
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\ORM\Locator\TableLocator.php:205
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Datasource\ModelAwareTrait.php:128
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Controller\Controller.php:323
+- D:\wamp64\www\projeto\testeMichel01\src\Controller\UsersController.php:14
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Controller\Controller.php:547
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:139
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:86
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:67
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Server.php:90
+- D:\wamp64\www\projeto\testeMichel01\webroot\index.php:40
+
+Request URL: /Users
+2023-04-26 03:27:09 error: [Cake\ORM\Exception\MissingTableClassException] Table class for alias `Users` could not be found. in D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\ORM\Locator\TableLocator.php on line 243
+Exception Attributes: array (
+  0 => 'for alias `Users`',
+)
+Stack Trace:
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Datasource\Locator\AbstractLocator.php:68
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\ORM\Locator\TableLocator.php:205
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Datasource\ModelAwareTrait.php:128
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Controller\Controller.php:323
+- D:\wamp64\www\projeto\testeMichel01\src\Controller\UsersController.php:14
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Controller\Controller.php:547
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:139
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:86
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:67
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Server.php:90
+- D:\wamp64\www\projeto\testeMichel01\webroot\index.php:40
+
+Request URL: /Users
+2023-04-26 03:44:49 error: [Cake\ORM\Exception\MissingTableClassException] Table class for alias `Users` could not be found. in D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\ORM\Locator\TableLocator.php on line 243
+Exception Attributes: array (
+  0 => 'for alias `Users`',
+)
+Stack Trace:
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Datasource\Locator\AbstractLocator.php:68
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\ORM\Locator\TableLocator.php:205
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Datasource\ModelAwareTrait.php:128
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Controller\Controller.php:323
+- D:\wamp64\www\projeto\testeMichel01\src\Controller\UsersController.php:12
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Controller\Controller.php:547
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:139
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:86
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:67
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Server.php:90
+- D:\wamp64\www\projeto\testeMichel01\webroot\index.php:40
+
+Request URL: /Users
+2023-04-26 03:54:03 error: [Cake\ORM\Exception\MissingTableClassException] Table class for alias `Users` could not be found. in D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\ORM\Locator\TableLocator.php on line 243
+Exception Attributes: array (
+  0 => 'for alias `Users`',
+)
+Stack Trace:
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Datasource\Locator\AbstractLocator.php:68
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\ORM\Locator\TableLocator.php:205
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Datasource\ModelAwareTrait.php:128
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Controller\Controller.php:323
+- D:\wamp64\www\projeto\testeMichel01\src\Controller\UsersController.php:12
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Controller\Controller.php:547
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:139
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:86
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:67
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Server.php:90
+- D:\wamp64\www\projeto\testeMichel01\webroot\index.php:40
+
+Request URL: /Users
+2023-04-26 03:54:06 error: [Cake\ORM\Exception\MissingTableClassException] Table class for alias `Users` could not be found. in D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\ORM\Locator\TableLocator.php on line 243
+Exception Attributes: array (
+  0 => 'for alias `Users`',
+)
+Stack Trace:
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Datasource\Locator\AbstractLocator.php:68
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\ORM\Locator\TableLocator.php:205
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Datasource\ModelAwareTrait.php:128
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Controller\Controller.php:323
+- D:\wamp64\www\projeto\testeMichel01\src\Controller\UsersController.php:12
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Controller\Controller.php:547
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:139
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:86
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:67
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Server.php:90
+- D:\wamp64\www\projeto\testeMichel01\webroot\index.php:40
+
+Request URL: /Users
+2023-04-26 03:56:48 error: [Cake\ORM\Exception\MissingTableClassException] Table class for alias `Users` could not be found. in D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\ORM\Locator\TableLocator.php on line 243
+Exception Attributes: array (
+  0 => 'for alias `Users`',
+)
+Stack Trace:
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Datasource\Locator\AbstractLocator.php:68
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\ORM\Locator\TableLocator.php:205
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Datasource\ModelAwareTrait.php:128
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Controller\Controller.php:323
+- D:\wamp64\www\projeto\testeMichel01\src\Controller\UsersController.php:12
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Controller\Controller.php:547
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:139
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:86
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:67
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Server.php:90
+- D:\wamp64\www\projeto\testeMichel01\webroot\index.php:40
+
+Request URL: /Users
+2023-04-26 03:56:53 error: [Cake\Http\Exception\MissingControllerException] Controller class User could not be found. in D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 348
+Exception Attributes: array (
+  'controller' => 'User',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+  'class' => 'User',
+)
+Stack Trace:
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:74
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\BaseApplication.php:318
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:86
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:67
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Server.php:90
+- D:\wamp64\www\projeto\testeMichel01\webroot\index.php:40
+
+Request URL: /User
+2023-04-26 03:57:08 error: [Cake\ORM\Exception\MissingTableClassException] Table class for alias `Users` could not be found. in D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\ORM\Locator\TableLocator.php on line 243
+Exception Attributes: array (
+  0 => 'for alias `Users`',
+)
+Stack Trace:
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Datasource\Locator\AbstractLocator.php:68
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\ORM\Locator\TableLocator.php:205
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Datasource\ModelAwareTrait.php:128
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Controller\Controller.php:323
+- D:\wamp64\www\projeto\testeMichel01\src\Controller\UsersController.php:12
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Controller\Controller.php:547
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:139
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:86
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:67
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Server.php:90
+- D:\wamp64\www\projeto\testeMichel01\webroot\index.php:40
+
+Request URL: /Users
+2023-04-26 04:01:35 error: [Cake\ORM\Exception\MissingTableClassException] Table class for alias `Users` could not be found. in D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\ORM\Locator\TableLocator.php on line 243
+Exception Attributes: array (
+  0 => 'for alias `Users`',
+)
+Stack Trace:
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Datasource\Locator\AbstractLocator.php:68
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\ORM\Locator\TableLocator.php:205
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Datasource\ModelAwareTrait.php:128
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Controller\Controller.php:323
+- D:\wamp64\www\projeto\testeMichel01\src\Controller\UsersController.php:12
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Controller\Controller.php:547
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:139
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:86
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:67
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Server.php:90
+- D:\wamp64\www\projeto\testeMichel01\webroot\index.php:40
+
+Request URL: /Users
+2023-04-26 04:09:22 error: [Cake\Database\Exception\MissingConnectionException] Connection to Mysql could not be established: SQLSTATE[HY000] [1049] Unknown database 'nome' in D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Database\Driver.php on line 133
+Exception Attributes: array (
+  'driver' => 'Mysql',
+  'reason' => 'SQLSTATE[HY000] [1049] Unknown database \'nome\'',
+)
+Stack Trace:
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php:164
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Database\Schema\SchemaDialect.php:51
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php:216
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Database\Schema\Collection.php:53
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Database\Connection.php:418
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\ORM\Table.php:520
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\ORM\Query.php:290
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\ORM\Query.php:184
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\ORM\Table.php:1714
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\ORM\Table.php:1269
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Datasource\Paging\NumericPaginator.php:211
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Datasource\Paging\NumericPaginator.php:180
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Controller\Controller.php:958
+- D:\wamp64\www\projeto\testeMichel01\src\Controller\UsuariosController.php:21
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Controller\Controller.php:547
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:139
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:86
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:67
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Server.php:90
+- D:\wamp64\www\projeto\testeMichel01\webroot\index.php:40
+
+Caused by: [PDOException] SQLSTATE[HY000] [1049] Unknown database 'nome' in D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Database\Driver.php on line 125
+Stack Trace:
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Database\Driver.php:125
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php:70
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Database\Driver.php:131
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php:164
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Database\Schema\SchemaDialect.php:51
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php:216
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Database\Schema\Collection.php:53
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Database\Connection.php:418
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\ORM\Table.php:520
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\ORM\Query.php:290
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\ORM\Query.php:184
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\ORM\Table.php:1714
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\ORM\Table.php:1269
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Datasource\Paging\NumericPaginator.php:211
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Datasource\Paging\NumericPaginator.php:180
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Controller\Controller.php:958
+- D:\wamp64\www\projeto\testeMichel01\src\Controller\UsuariosController.php:21
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Controller\Controller.php:547
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:139
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:86
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:67
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Server.php:90
+- D:\wamp64\www\projeto\testeMichel01\webroot\index.php:40
+
+Request URL: /usuarios
+2023-04-26 04:13:44 error: [Cake\ORM\Exception\MissingTableClassException] Table class for alias `Users` could not be found. in D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\ORM\Locator\TableLocator.php on line 243
+Exception Attributes: array (
+  0 => 'for alias `Users`',
+)
+Stack Trace:
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Datasource\Locator\AbstractLocator.php:68
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\ORM\Locator\TableLocator.php:205
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Datasource\ModelAwareTrait.php:128
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Controller\Controller.php:323
+- D:\wamp64\www\projeto\testeMichel01\src\Controller\UsersController.php:12
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Controller\Controller.php:547
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:139
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:86
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:67
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Server.php:90
+- D:\wamp64\www\projeto\testeMichel01\webroot\index.php:40
+
+Request URL: /Users
+2023-04-26 04:15:22 error: [Cake\ORM\Exception\MissingTableClassException] Table class for alias `Users` could not be found. in D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\ORM\Locator\TableLocator.php on line 243
+Exception Attributes: array (
+  0 => 'for alias `Users`',
+)
+Stack Trace:
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Datasource\Locator\AbstractLocator.php:68
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\ORM\Locator\TableLocator.php:205
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Datasource\ModelAwareTrait.php:128
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Controller\Controller.php:323
+- D:\wamp64\www\projeto\testeMichel01\src\Controller\UsersController.php:12
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Controller\Controller.php:547
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:139
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:86
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:67
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Server.php:90
+- D:\wamp64\www\projeto\testeMichel01\webroot\index.php:40
+
+Request URL: /Users
+2023-04-26 04:15:27 error: [Cake\ORM\Exception\MissingTableClassException] Table class for alias `Users` could not be found. in D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\ORM\Locator\TableLocator.php on line 243
+Exception Attributes: array (
+  0 => 'for alias `Users`',
+)
+Stack Trace:
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Datasource\Locator\AbstractLocator.php:68
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\ORM\Locator\TableLocator.php:205
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Datasource\ModelAwareTrait.php:128
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Controller\Controller.php:323
+- D:\wamp64\www\projeto\testeMichel01\src\Controller\UsersController.php:12
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Controller\Controller.php:547
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:139
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:86
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:67
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Server.php:90
+- D:\wamp64\www\projeto\testeMichel01\webroot\index.php:40
+
+Request URL: /Users
+2023-04-26 04:16:32 warning: Undefined variable $usuarios
+Request URL: /Users
+Trace:
+include D:\wamp64\www\projeto\testeMichel01\templates\Users\index.php, line 19
+Cake\View\View::_evaluate() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\View\View.php, line 1220
+Cake\View\View::_render() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\View\View.php, line 1177
+Cake\View\View::render() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\View\View.php, line 808
+Cake\Controller\Controller::render() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Controller\Controller.php, line 773
+Cake\Controller\Controller::invokeAction() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Controller\Controller.php, line 556
+Cake\Controller\ControllerFactory::handle() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory::invoke() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 320
+Cake\Http\Runner::handle() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 174
+Cake\Http\Runner::handle() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Middleware\BodyParserMiddleware::process() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Routing\Middleware\RoutingMiddleware::process() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Routing\Middleware\AssetMiddleware::process() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+DebugKit\Middleware\DebugKitMiddleware::process() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner::run() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php, line 67
+Cake\Http\Server::run() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Server.php, line 90
+[main] D:\wamp64\www\projeto\testeMichel01\webroot\index.php, line 40
+
+2023-04-26 04:16:32 warning: foreach() argument must be of type array|object, null given
+Request URL: /Users
+Trace:
+include D:\wamp64\www\projeto\testeMichel01\templates\Users\index.php, line 19
+Cake\View\View::_evaluate() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\View\View.php, line 1220
+Cake\View\View::_render() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\View\View.php, line 1177
+Cake\View\View::render() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\View\View.php, line 808
+Cake\Controller\Controller::render() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Controller\Controller.php, line 773
+Cake\Controller\Controller::invokeAction() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Controller\Controller.php, line 556
+Cake\Controller\ControllerFactory::handle() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory::invoke() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 320
+Cake\Http\Runner::handle() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 174
+Cake\Http\Runner::handle() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Middleware\BodyParserMiddleware::process() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Routing\Middleware\RoutingMiddleware::process() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Routing\Middleware\AssetMiddleware::process() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+DebugKit\Middleware\DebugKitMiddleware::process() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner::run() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php, line 67
+Cake\Http\Server::run() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Server.php, line 90
+[main] D:\wamp64\www\projeto\testeMichel01\webroot\index.php, line 40
+
+2023-04-26 04:16:32 warning: Undefined variable $usuarios
+Request URL: /Users
+Trace:
+include D:\wamp64\www\projeto\testeMichel01\templates\Users\index.php, line 35
+Cake\View\View::_evaluate() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\View\View.php, line 1220
+Cake\View\View::_render() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\View\View.php, line 1177
+Cake\View\View::render() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\View\View.php, line 808
+Cake\Controller\Controller::render() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Controller\Controller.php, line 773
+Cake\Controller\Controller::invokeAction() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Controller\Controller.php, line 556
+Cake\Controller\ControllerFactory::handle() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory::invoke() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 320
+Cake\Http\Runner::handle() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 174
+Cake\Http\Runner::handle() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Middleware\BodyParserMiddleware::process() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Routing\Middleware\RoutingMiddleware::process() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Routing\Middleware\AssetMiddleware::process() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+DebugKit\Middleware\DebugKitMiddleware::process() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner::run() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php, line 67
+Cake\Http\Server::run() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Server.php, line 90
+[main] D:\wamp64\www\projeto\testeMichel01\webroot\index.php, line 40
+
+2023-04-26 04:17:58 warning: Undefined variable $usuarios
+Request URL: /Users
+Trace:
+include D:\wamp64\www\projeto\testeMichel01\templates\Users\index.php, line 19
+Cake\View\View::_evaluate() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\View\View.php, line 1220
+Cake\View\View::_render() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\View\View.php, line 1177
+Cake\View\View::render() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\View\View.php, line 808
+Cake\Controller\Controller::render() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Controller\Controller.php, line 773
+Cake\Controller\Controller::invokeAction() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Controller\Controller.php, line 556
+Cake\Controller\ControllerFactory::handle() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory::invoke() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 320
+Cake\Http\Runner::handle() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 174
+Cake\Http\Runner::handle() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Middleware\BodyParserMiddleware::process() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Routing\Middleware\RoutingMiddleware::process() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Routing\Middleware\AssetMiddleware::process() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+DebugKit\Middleware\DebugKitMiddleware::process() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner::run() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php, line 67
+Cake\Http\Server::run() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Server.php, line 90
+[main] D:\wamp64\www\projeto\testeMichel01\webroot\index.php, line 40
+
+2023-04-26 04:17:58 warning: foreach() argument must be of type array|object, null given
+Request URL: /Users
+Trace:
+include D:\wamp64\www\projeto\testeMichel01\templates\Users\index.php, line 19
+Cake\View\View::_evaluate() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\View\View.php, line 1220
+Cake\View\View::_render() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\View\View.php, line 1177
+Cake\View\View::render() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\View\View.php, line 808
+Cake\Controller\Controller::render() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Controller\Controller.php, line 773
+Cake\Controller\Controller::invokeAction() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Controller\Controller.php, line 556
+Cake\Controller\ControllerFactory::handle() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory::invoke() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 320
+Cake\Http\Runner::handle() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 174
+Cake\Http\Runner::handle() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Middleware\BodyParserMiddleware::process() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Routing\Middleware\RoutingMiddleware::process() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Routing\Middleware\AssetMiddleware::process() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+DebugKit\Middleware\DebugKitMiddleware::process() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner::run() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php, line 67
+Cake\Http\Server::run() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Server.php, line 90
+[main] D:\wamp64\www\projeto\testeMichel01\webroot\index.php, line 40
+
+2023-04-26 04:17:58 warning: Undefined variable $usuarios
+Request URL: /Users
+Trace:
+include D:\wamp64\www\projeto\testeMichel01\templates\Users\index.php, line 35
+Cake\View\View::_evaluate() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\View\View.php, line 1220
+Cake\View\View::_render() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\View\View.php, line 1177
+Cake\View\View::render() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\View\View.php, line 808
+Cake\Controller\Controller::render() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Controller\Controller.php, line 773
+Cake\Controller\Controller::invokeAction() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Controller\Controller.php, line 556
+Cake\Controller\ControllerFactory::handle() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory::invoke() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 320
+Cake\Http\Runner::handle() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 174
+Cake\Http\Runner::handle() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Middleware\BodyParserMiddleware::process() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Routing\Middleware\RoutingMiddleware::process() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Routing\Middleware\AssetMiddleware::process() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+DebugKit\Middleware\DebugKitMiddleware::process() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner::run() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php, line 67
+Cake\Http\Server::run() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Server.php, line 90
+[main] D:\wamp64\www\projeto\testeMichel01\webroot\index.php, line 40
+
+2023-04-26 04:18:01 warning: Undefined variable $usuarios
+Request URL: /Users
+Trace:
+include D:\wamp64\www\projeto\testeMichel01\templates\Users\index.php, line 19
+Cake\View\View::_evaluate() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\View\View.php, line 1220
+Cake\View\View::_render() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\View\View.php, line 1177
+Cake\View\View::render() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\View\View.php, line 808
+Cake\Controller\Controller::render() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Controller\Controller.php, line 773
+Cake\Controller\Controller::invokeAction() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Controller\Controller.php, line 556
+Cake\Controller\ControllerFactory::handle() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory::invoke() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 320
+Cake\Http\Runner::handle() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 174
+Cake\Http\Runner::handle() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Middleware\BodyParserMiddleware::process() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Routing\Middleware\RoutingMiddleware::process() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Routing\Middleware\AssetMiddleware::process() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+DebugKit\Middleware\DebugKitMiddleware::process() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner::run() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php, line 67
+Cake\Http\Server::run() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Server.php, line 90
+[main] D:\wamp64\www\projeto\testeMichel01\webroot\index.php, line 40
+
+2023-04-26 04:18:01 warning: foreach() argument must be of type array|object, null given
+Request URL: /Users
+Trace:
+include D:\wamp64\www\projeto\testeMichel01\templates\Users\index.php, line 19
+Cake\View\View::_evaluate() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\View\View.php, line 1220
+Cake\View\View::_render() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\View\View.php, line 1177
+Cake\View\View::render() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\View\View.php, line 808
+Cake\Controller\Controller::render() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Controller\Controller.php, line 773
+Cake\Controller\Controller::invokeAction() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Controller\Controller.php, line 556
+Cake\Controller\ControllerFactory::handle() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory::invoke() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 320
+Cake\Http\Runner::handle() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 174
+Cake\Http\Runner::handle() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Middleware\BodyParserMiddleware::process() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Routing\Middleware\RoutingMiddleware::process() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Routing\Middleware\AssetMiddleware::process() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+DebugKit\Middleware\DebugKitMiddleware::process() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner::run() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php, line 67
+Cake\Http\Server::run() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Server.php, line 90
+[main] D:\wamp64\www\projeto\testeMichel01\webroot\index.php, line 40
+
+2023-04-26 04:18:01 warning: Undefined variable $usuarios
+Request URL: /Users
+Trace:
+include D:\wamp64\www\projeto\testeMichel01\templates\Users\index.php, line 35
+Cake\View\View::_evaluate() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\View\View.php, line 1220
+Cake\View\View::_render() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\View\View.php, line 1177
+Cake\View\View::render() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\View\View.php, line 808
+Cake\Controller\Controller::render() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Controller\Controller.php, line 773
+Cake\Controller\Controller::invokeAction() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Controller\Controller.php, line 556
+Cake\Controller\ControllerFactory::handle() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory::invoke() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 320
+Cake\Http\Runner::handle() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 174
+Cake\Http\Runner::handle() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Middleware\BodyParserMiddleware::process() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Routing\Middleware\RoutingMiddleware::process() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Routing\Middleware\AssetMiddleware::process() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+DebugKit\Middleware\DebugKitMiddleware::process() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner::run() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php, line 67
+Cake\Http\Server::run() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Server.php, line 90
+[main] D:\wamp64\www\projeto\testeMichel01\webroot\index.php, line 40
+
+2023-04-26 04:19:22 warning: Undefined variable $usuarios
+Request URL: /Users
+Trace:
+include D:\wamp64\www\projeto\testeMichel01\templates\Users\index.php, line 3
+Cake\View\View::_evaluate() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\View\View.php, line 1220
+Cake\View\View::_render() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\View\View.php, line 1177
+Cake\View\View::render() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\View\View.php, line 808
+Cake\Controller\Controller::render() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Controller\Controller.php, line 773
+Cake\Controller\Controller::invokeAction() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Controller\Controller.php, line 556
+Cake\Controller\ControllerFactory::handle() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory::invoke() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 320
+Cake\Http\Runner::handle() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 174
+Cake\Http\Runner::handle() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Middleware\BodyParserMiddleware::process() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Routing\Middleware\RoutingMiddleware::process() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Routing\Middleware\AssetMiddleware::process() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+DebugKit\Middleware\DebugKitMiddleware::process() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner::run() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php, line 67
+Cake\Http\Server::run() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Server.php, line 90
+[main] D:\wamp64\www\projeto\testeMichel01\webroot\index.php, line 40
+
+2023-04-26 04:19:32 warning: Undefined variable $usuarios
+Request URL: /Users
+Trace:
+include D:\wamp64\www\projeto\testeMichel01\templates\Users\index.php, line 19
+Cake\View\View::_evaluate() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\View\View.php, line 1220
+Cake\View\View::_render() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\View\View.php, line 1177
+Cake\View\View::render() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\View\View.php, line 808
+Cake\Controller\Controller::render() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Controller\Controller.php, line 773
+Cake\Controller\Controller::invokeAction() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Controller\Controller.php, line 556
+Cake\Controller\ControllerFactory::handle() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory::invoke() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 320
+Cake\Http\Runner::handle() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 174
+Cake\Http\Runner::handle() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Middleware\BodyParserMiddleware::process() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Routing\Middleware\RoutingMiddleware::process() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Routing\Middleware\AssetMiddleware::process() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+DebugKit\Middleware\DebugKitMiddleware::process() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner::run() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php, line 67
+Cake\Http\Server::run() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Server.php, line 90
+[main] D:\wamp64\www\projeto\testeMichel01\webroot\index.php, line 40
+
+2023-04-26 04:19:32 warning: foreach() argument must be of type array|object, null given
+Request URL: /Users
+Trace:
+include D:\wamp64\www\projeto\testeMichel01\templates\Users\index.php, line 19
+Cake\View\View::_evaluate() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\View\View.php, line 1220
+Cake\View\View::_render() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\View\View.php, line 1177
+Cake\View\View::render() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\View\View.php, line 808
+Cake\Controller\Controller::render() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Controller\Controller.php, line 773
+Cake\Controller\Controller::invokeAction() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Controller\Controller.php, line 556
+Cake\Controller\ControllerFactory::handle() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory::invoke() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 320
+Cake\Http\Runner::handle() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 174
+Cake\Http\Runner::handle() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Middleware\BodyParserMiddleware::process() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Routing\Middleware\RoutingMiddleware::process() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Routing\Middleware\AssetMiddleware::process() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+DebugKit\Middleware\DebugKitMiddleware::process() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner::run() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php, line 67
+Cake\Http\Server::run() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Server.php, line 90
+[main] D:\wamp64\www\projeto\testeMichel01\webroot\index.php, line 40
+
+2023-04-26 04:19:32 warning: Undefined variable $usuarios
+Request URL: /Users
+Trace:
+include D:\wamp64\www\projeto\testeMichel01\templates\Users\index.php, line 35
+Cake\View\View::_evaluate() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\View\View.php, line 1220
+Cake\View\View::_render() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\View\View.php, line 1177
+Cake\View\View::render() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\View\View.php, line 808
+Cake\Controller\Controller::render() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Controller\Controller.php, line 773
+Cake\Controller\Controller::invokeAction() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Controller\Controller.php, line 556
+Cake\Controller\ControllerFactory::handle() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory::invoke() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 320
+Cake\Http\Runner::handle() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 174
+Cake\Http\Runner::handle() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Middleware\BodyParserMiddleware::process() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Routing\Middleware\RoutingMiddleware::process() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Routing\Middleware\AssetMiddleware::process() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+DebugKit\Middleware\DebugKitMiddleware::process() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner::run() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php, line 67
+Cake\Http\Server::run() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Server.php, line 90
+[main] D:\wamp64\www\projeto\testeMichel01\webroot\index.php, line 40
+
+2023-04-26 04:22:47 error: [Cake\ORM\Exception\MissingTableClassException] Table class for alias `Users` could not be found. in D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\ORM\Locator\TableLocator.php on line 243
+Exception Attributes: array (
+  0 => 'for alias `Users`',
+)
+Stack Trace:
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Datasource\Locator\AbstractLocator.php:68
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\ORM\Locator\TableLocator.php:205
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Datasource\ModelAwareTrait.php:128
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Controller\Controller.php:323
+- D:\wamp64\www\projeto\testeMichel01\src\Controller\UsersController.php:14
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Controller\Controller.php:547
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:139
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:86
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:67
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Server.php:90
+- D:\wamp64\www\projeto\testeMichel01\webroot\index.php:40
+
+Request URL: /Users
+2023-04-26 04:23:12 error: [Cake\ORM\Exception\MissingTableClassException] Table class for alias `Users` could not be found. in D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\ORM\Locator\TableLocator.php on line 243
+Exception Attributes: array (
+  0 => 'for alias `Users`',
+)
+Stack Trace:
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Datasource\Locator\AbstractLocator.php:68
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\ORM\Locator\TableLocator.php:205
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Datasource\ModelAwareTrait.php:128
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Controller\Controller.php:323
+- D:\wamp64\www\projeto\testeMichel01\src\Controller\UsersController.php:14
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Controller\Controller.php:547
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:139
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:86
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:67
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Server.php:90
+- D:\wamp64\www\projeto\testeMichel01\webroot\index.php:40
+
+Request URL: /Users
+2023-04-26 04:23:15 error: [Cake\ORM\Exception\MissingTableClassException] Table class for alias `Users` could not be found. in D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\ORM\Locator\TableLocator.php on line 243
+Exception Attributes: array (
+  0 => 'for alias `Users`',
+)
+Stack Trace:
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Datasource\Locator\AbstractLocator.php:68
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\ORM\Locator\TableLocator.php:205
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Datasource\ModelAwareTrait.php:128
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Controller\Controller.php:323
+- D:\wamp64\www\projeto\testeMichel01\src\Controller\UsersController.php:14
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Controller\Controller.php:547
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:139
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:86
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:67
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Server.php:90
+- D:\wamp64\www\projeto\testeMichel01\webroot\index.php:40
+
+Request URL: /Users
+2023-04-26 04:33:45 error: [Cake\ORM\Exception\MissingTableClassException] Table class for alias `Users` could not be found. in D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\ORM\Locator\TableLocator.php on line 243
+Exception Attributes: array (
+  0 => 'for alias `Users`',
+)
+Stack Trace:
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Datasource\Locator\AbstractLocator.php:68
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\ORM\Locator\TableLocator.php:205
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Datasource\ModelAwareTrait.php:128
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Controller\Controller.php:323
+- D:\wamp64\www\projeto\testeMichel01\src\Controller\UsersController.php:21
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Controller\Controller.php:547
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:139
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:86
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php:67
+- D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Server.php:90
+- D:\wamp64\www\projeto\testeMichel01\webroot\index.php:40
+
+Request URL: /Users
+2023-04-26 04:40:13 warning: Unable to emit headers. Headers sent in file=D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php line=36
+Request URL: /usuariosinformacoes
+Trace:
+Cake\Http\ResponseEmitter::emit() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 71
+Cake\Http\Server::emit() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Server.php, line 128
+[main] D:\wamp64\www\projeto\testeMichel01\webroot\index.php, line 40
+
+2023-04-26 04:40:13 warning: Cannot modify header information - headers already sent by (output started at D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php:36)
+Request URL: /usuariosinformacoes
+Trace:
+header [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 168
+Cake\Http\ResponseEmitter::emit() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 74
+Cake\Http\Server::emit() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Server.php, line 128
+[main] D:\wamp64\www\projeto\testeMichel01\webroot\index.php, line 40
+
+2023-04-26 04:40:13 warning: Cannot modify header information - headers already sent by (output started at D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php:36)
+Request URL: /usuariosinformacoes
+Trace:
+header [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 197
+Cake\Http\ResponseEmitter::emit() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 75
+Cake\Http\Server::emit() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Server.php, line 128
+[main] D:\wamp64\www\projeto\testeMichel01\webroot\index.php, line 40
+
+2023-04-26 04:40:13 warning: Cannot modify header information - headers already sent by (output started at D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php:36)
+Request URL: /usuariosinformacoes
+Trace:
+header [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 197
+Cake\Http\ResponseEmitter::emit() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 75
+Cake\Http\Server::emit() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Server.php, line 128
+[main] D:\wamp64\www\projeto\testeMichel01\webroot\index.php, line 40
+

@@ -1,0 +1,105 @@
+2023-04-26 02:16:05 notice: Undefined property: UsuariosInformacoesController::$UsuariosInformacoes in D:\wamp64\www\projeto\testeMichel01\src\Controller\UsuariosInformacoesController.php on line 21
+Request URL: /usuariosinformacoes
+Trace:
+Cake\Controller\Controller::__get() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Controller\Controller.php, line 337
+App\Controller\UsuariosInformacoesController::index() D:\wamp64\www\projeto\testeMichel01\src\Controller\UsuariosInformacoesController.php, line 21
+Cake\Controller\Controller::invokeAction() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Controller\Controller.php, line 547
+Cake\Controller\ControllerFactory::handle() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory::invoke() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 320
+Cake\Http\Runner::handle() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 174
+Cake\Http\Runner::handle() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Middleware\BodyParserMiddleware::process() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Routing\Middleware\RoutingMiddleware::process() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Routing\Middleware\AssetMiddleware::process() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+DebugKit\Middleware\DebugKitMiddleware::process() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner::run() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php, line 67
+Cake\Http\Server::run() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Server.php, line 90
+[main] D:\wamp64\www\projeto\testeMichel01\webroot\index.php, line 40
+
+2023-04-26 02:18:36 notice: Undefined property: UsuariosInformacoesController::$UsuariosInformacoes in D:\wamp64\www\projeto\testeMichel01\src\Controller\UsuariosInformacoesController.php on line 49
+Request URL: /usuariosinformacoes/add
+Referer URL: http://localhost/projeto/testeMichel01/usuariosinformacoes
+Trace:
+Cake\Controller\Controller::__get() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Controller\Controller.php, line 337
+App\Controller\UsuariosInformacoesController::add() D:\wamp64\www\projeto\testeMichel01\src\Controller\UsuariosInformacoesController.php, line 49
+Cake\Controller\Controller::invokeAction() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Controller\Controller.php, line 547
+Cake\Controller\ControllerFactory::handle() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory::invoke() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 320
+Cake\Http\Runner::handle() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 174
+Cake\Http\Runner::handle() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Middleware\BodyParserMiddleware::process() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Routing\Middleware\RoutingMiddleware::process() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Routing\Middleware\AssetMiddleware::process() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+DebugKit\Middleware\DebugKitMiddleware::process() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner::run() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php, line 67
+Cake\Http\Server::run() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Server.php, line 90
+[main] D:\wamp64\www\projeto\testeMichel01\webroot\index.php, line 40
+
+2023-04-26 02:23:32 notice: Undefined property: UsuariosInformacoesController::$UsuariosInformacoes in D:\wamp64\www\projeto\testeMichel01\src\Controller\UsuariosInformacoesController.php on line 21
+Request URL: /usuariosinformacoes
+Trace:
+Cake\Controller\Controller::__get() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Controller\Controller.php, line 337
+App\Controller\UsuariosInformacoesController::index() D:\wamp64\www\projeto\testeMichel01\src\Controller\UsuariosInformacoesController.php, line 21
+Cake\Controller\Controller::invokeAction() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Controller\Controller.php, line 547
+Cake\Controller\ControllerFactory::handle() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory::invoke() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 320
+Cake\Http\Runner::handle() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 174
+Cake\Http\Runner::handle() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Middleware\BodyParserMiddleware::process() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Routing\Middleware\RoutingMiddleware::process() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Routing\Middleware\AssetMiddleware::process() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+DebugKit\Middleware\DebugKitMiddleware::process() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner::run() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php, line 67
+Cake\Http\Server::run() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Server.php, line 90
+[main] D:\wamp64\www\projeto\testeMichel01\webroot\index.php, line 40
+
+2023-04-26 04:40:12 notice: Undefined property: UsuariosInformacoesController::$UsuariosInformacoes in D:\wamp64\www\projeto\testeMichel01\src\Controller\UsuariosInformacoesController.php on line 21
+Request URL: /usuariosinformacoes
+Trace:
+Cake\Controller\Controller::__get() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Controller\Controller.php, line 337
+App\Controller\UsuariosInformacoesController::index() D:\wamp64\www\projeto\testeMichel01\src\Controller\UsuariosInformacoesController.php, line 21
+Cake\Controller\Controller::invokeAction() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Controller\Controller.php, line 547
+Cake\Controller\ControllerFactory::handle() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory::invoke() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 320
+Cake\Http\Runner::handle() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 174
+Cake\Http\Runner::handle() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Middleware\BodyParserMiddleware::process() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Routing\Middleware\RoutingMiddleware::process() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Routing\Middleware\AssetMiddleware::process() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+DebugKit\Middleware\DebugKitMiddleware::process() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner::run() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Runner.php, line 67
+Cake\Http\Server::run() D:\wamp64\www\projeto\testeMichel01\vendor\cakephp\cakephp\src\Http\Server.php, line 90
+[main] D:\wamp64\www\projeto\testeMichel01\webroot\index.php, line 40
+
